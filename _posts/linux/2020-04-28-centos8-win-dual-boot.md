@@ -14,7 +14,10 @@ tags: OS
 ### Shrink partition if necessary
 
 ###  Install Centos 8
-After Centos installation, you might see the boot menu only includes Centos 8
+```
+# If you use EFI, job is done here. You will both Linux and Windows from boot menu.You should continue if you use legacy BIOS
+# After Centos installation, you might see the boot menu only includes Centos 8
+```
 ### Identify the Windows boot partiton 
 ```
 # fdisk -l /dev/sda
