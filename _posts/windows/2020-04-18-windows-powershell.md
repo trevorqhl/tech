@@ -4,7 +4,7 @@ title:  "How to use PowerShell check computer object"
 date:   2020-04-18 09:10:54 -0400
 img: powershell.png
 categories: Windows
-tags: Shell
+tags: Active_Directory
 ---
 ![PowerSheel]({{site.baseurl}}/images/powershell.png)
 
