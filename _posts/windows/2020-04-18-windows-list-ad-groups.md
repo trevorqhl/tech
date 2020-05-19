@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to use Windows command line to check AD group"
+title:  "How to list AD groups that the current user belongs"
 date:   2020-04-18 09:10:54 -0400
 img: windows.png
 categories: Windows
@@ -11,4 +11,5 @@ tags: Active_Directory
 ### Check the list of your AD groups
 {% highlight ruby %}
 whoami /groups > groups.txt
-groups.txt{% endhighlight %}
+groups.txt
+{% endhighlight %}
