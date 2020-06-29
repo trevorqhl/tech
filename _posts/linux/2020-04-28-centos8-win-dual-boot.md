@@ -51,4 +51,15 @@ grub2-mkconfig --output=/boot/grub2/grub.cfg
 
 On the next reboot, you will see the Windows menu
 
-### UEFI process coming up next
+### Set boot order (for both UEFI and Legacy BIOS)
+```
+# grub2-editenv list
+
+## Set boot from Linux by default
+# grub2-set-default 0
+
+## Set boot from Windows by default
+# grub2-set-default 2
+# grub2-editenv list
+```
+
