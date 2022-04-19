@@ -63,3 +63,14 @@ On the next reboot, you will see the Windows menu
 # grub2-editenv list
 ```
 
+### Re-activate grub as boot loader for EFI
+I cloned my hard drive to a bigger SSD, but it only boots into Windows 10 on the cloned SSD. The commands below help to re-active grub for dual boot menu.
+```
+## Check the EFI entries for the location of the 
+# bcdedit /enum firmware 
+
+## Re-activate grub
+# bcdedit /set "{bootmgr}" path EFI/centos/shimx64.efi
+```
+
+
