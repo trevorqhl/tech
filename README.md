@@ -1,4 +1,4 @@
-a Tech blog Powered by Jekyll
+a tech blog powered by Jekyll
 =============================
 
 1，[Jekyll][jekyll-url]
